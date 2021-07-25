@@ -3,8 +3,8 @@ EXT_IP="10.1.1.221" # ip address VM interface eth0
 INT_IP="172.17.0.1" # ip address interface docker0
 EXT_IF="eth0" # interface name eth0
 INT_IF="docker0" # interface name docker0
-LAN_IP="172.20.0.10"   # ip docker container with kibana
-SRV_PORT="5601" # port for web kibana
+LAN_IP="172.20.0.10"   # ip docker container with 
+SRV_PORT="5601" # port for web
 FAKE_PORT="15601"  # fake port for external interface
 
 echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward # enabling traffic forwarding at the kernel level
