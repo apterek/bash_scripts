@@ -1,1 +1,2 @@
-sudo iptables-save -f /etc/iptables-conf/iptables_rules.ipv4
+#!/bin/bash
+iptables-save -f /etc/iptables_conf/iptables_rules.ipv4
